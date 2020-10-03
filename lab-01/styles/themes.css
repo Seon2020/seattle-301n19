@@ -1,0 +1,58 @@
+#a {
+  background-color: rgba(113, 4, 255, 0.85);
+}
+#b {
+  background-color: rgba(194, 157, 241, 0.85);
+}
+#c {
+  background-color: rgba(6, 195, 253, 0.85);
+}
+#d {
+  background-color: rgba(65, 165, 190, 0.85);
+}
+#e {
+  background-color: rgba(12, 86, 121, 0.85);
+}
+#f {
+  background-color: rgba(42, 17, 75, 0.85);
+}
+#g {
+  background-color: rgba(124, 131, 197, 0.85);
+}
+#h {
+  background-color: rgba(166, 105, 247, 0.85);
+}
+#i {
+  background-color: rgba(0, 24, 54, 0.349);
+}
+
+/* view themes for desktop */
+@media only screen and (min-width: 768px) {
+  #a {
+    background-color: rgba(95, 255, 122, 0.85);
+  }
+  #b {
+    background-color: rgba(4, 165, 66, 0.85);
+  }
+  #c {
+    background-color: rgba(156, 154, 35, 0.85);
+  }
+  #d {
+    background-color: rgba(100, 83, 5, 0.85);
+  }
+  #e {
+    background-color: rgba(32, 158, 39, 0.85);
+  }
+  #f {
+    background-color: rgba(33, 124, 11, 0.85);
+  }
+  #g {
+    background-color: rgba(17, 153, 85, 0.85);
+  }
+  #h {
+    background-color: rgba(109, 160, 86, 0.85);
+  }
+  #i {
+    background-color: rgba(12, 92, 16, 0.85);
+  }
+}

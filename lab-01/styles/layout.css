@@ -1,0 +1,30 @@
+#a {
+  height: 75px;
+  line-height: 75px;
+}
+#b {
+  height: 150px;
+  line-height: 150px;
+}
+#c, #d {
+  height: 150px;
+  line-height: 150px;
+}
+#e, #f, #g, #h {
+  width: 50%;
+  float: left;
+  height: 250px;
+  line-height: 250px
+}
+#i > footer {
+  height: 100px;
+  line-height: 100px;
+}
+@media only screen and (min-width: 768px) {
+  div {
+    float: left;
+  }
+  .eToH, footer {
+    float: right;
+  }
+}
