@@ -1,14 +1,30 @@
-body {
-  width: 480px;
-  box-sizing: border-box;
-  text-align: center;
+#a {
+  height: 75px;
+  line-height: 75px;
 }
-header, nav, div, section, footer {
-  outline: solid 1px dark grey;
+#b {
+  height: 150px;
+  line-height: 150px;
 }
-@media only screen and (min-width: 768px) { 
-  //all css in here -- desktop widths inside media query
-  body {
-    width: 960px;
+#c, #d {
+  height: 150px;
+  line-height: 150px;
+}
+#e, #f, #g, #h {
+  width: 50%;
+  float: left;
+  height: 250px;
+  line-height: 250px
+}
+#i > footer {
+  height: 100px;
+  line-height: 100px;
+}
+@media only screen and (min-width: 768px) {
+  div {
+    float: left;
+  }
+  .eToH, footer {
+    float: right;
   }
 }
