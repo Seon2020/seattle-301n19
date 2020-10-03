@@ -1,0 +1,14 @@
+body {
+  width: 480px;
+  box-sizing: border-box;
+  text-align: center;
+}
+header, nav, div, section, footer {
+  outline: solid 1px dark grey;
+}
+@media only screen and (min-width: 768px) { 
+  //all css in here -- desktop widths inside media query
+  body {
+    width: 960px;
+  }
+}
